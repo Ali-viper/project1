@@ -1,0 +1,30 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height:80vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+}
+.container{
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    padding: 20px;
+    border: 8px;
+    background-color: #fff;
+}
+.container header{
+    font-size: 22px;
+    font-weight:600 ;
+    color: #333;
+}
+.container form{
+margin-top: 32px;
+
+}
